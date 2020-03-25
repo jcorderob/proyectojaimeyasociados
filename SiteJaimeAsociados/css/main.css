@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #716e6e; }
+
+/* #fila{
+    border: 1px solid blue;
+}
+
+#columna{
+    border: 1px solid rgb(255, 8, 0);
+} */
+#contacto-inicial > i {
+  color: #be7f11;
+  vertical-align: middle !important; }
+
+#contacto-inicial > i, p {
+  display: inline; }
+
+.btn-primary {
+  background-color: #be7f11;
+  border: 1px solid #be7f11; }
+
+.btn-primary:hover {
+  background-color: #716e6e;
+  border: 1px solid #716e6e; }
+
+#menu-principal {
+  background-color: #716e6e; }
+
+/*# sourceMappingURL=main.css.map */

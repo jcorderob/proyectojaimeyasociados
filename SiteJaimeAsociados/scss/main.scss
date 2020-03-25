@@ -1,0 +1,43 @@
+//------------------------------
+//  PATRON DE COLORES
+//------------------------------  
+$marron: #be7f11;
+$azul  : #0000ff; 
+$gris  : #716e6e;
+$tamanio-fuente : 16px;
+  
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $tamanio-fuente;
+    color: $gris;
+}
+/* #fila{
+    border: 1px solid blue;
+}
+
+#columna{
+    border: 1px solid rgb(255, 8, 0);
+} */
+
+#contacto-inicial> i{
+        color: $marron;
+        vertical-align: middle !important;
+}
+#contacto-inicial> i, p{
+    display: inline;
+}
+
+.btn-primary{
+    background-color: $marron;
+    border: 1px solid $marron;
+}
+.btn-primary:hover{
+    background-color: $gris;
+    border: 1px solid $gris;
+}
+
+
+
+#menu-principal{
+    background-color: $gris;
+}

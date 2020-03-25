@@ -1,0 +1,16 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+#fila{
+    border: 1px solid blue;
+}
+
+#columna{
+    border: 1px solid rgb(255, 8, 0);
+}
+
+i{
+        color: #716e6e;
+        vertical-align: middle !important;
+}
