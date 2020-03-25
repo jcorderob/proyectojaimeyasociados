@@ -28,4 +28,29 @@ body {
 #menu-principal {
   background-color: #716e6e; }
 
+.logo {
+  top: 35px;
+  left: 45px;
+  position: absolute; }
+
+.uno {
+  background-color: cyan;
+  border: 1px solid cyan;
+  width: 10px;
+  height: 150px; }
+
+.dos {
+  background-color: #bbff00;
+  border: 1px solid #bbff00;
+  width: 300px;
+  height: 150px;
+  top: 50px;
+  left: 20px;
+  position: absolute; }
+
+.tres {
+  width: 400px;
+  height: 600px;
+  border: 1px solid red; }
+
 /*# sourceMappingURL=main.css.map */

@@ -41,3 +41,33 @@ body{
 #menu-principal{
     background-color: $gris;
 }
+
+// Estilo para la posicion absoluta del logo de jaime y Asociados
+.logo{
+  top:35px; left:45px;
+  position: absolute;
+} 
+
+.uno
+{
+        background-color: cyan;
+        border: 1px solid cyan;
+        width: 10px;
+        height: 150px;
+        
+}
+
+.dos
+{
+        background-color: rgb(187, 255, 0);
+        border: 1px solid  rgb(187, 255, 0);
+        width: 300px;
+        height: 150px;
+        top:50px; left:20px;
+         position: absolute; 
+}
+.tres{
+    width: 400px;
+    height: 600px;
+    border: 1px solid red;
+}
