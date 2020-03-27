@@ -72,17 +72,13 @@ nav ul li a:hover {
   font-size: 2em;
   font-weight: bold; }
 
-/* 
-.tituloslider{
-    color: white !important;
-    font-size: 3.4em  !important;
-    font-weight: bold  !important;
-}
+#breveresenia {
+  color: #716e6e; }
 
-.textoslider{
-    color:white  !important;
-    font-size: 2em  !important;
-    font-weight: bold  !important;
-} */
+.scaleX {
+  transform: scaleX(-1); }
+
+.colorcomillas {
+  color: #be7f11; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <style>
+        .transition {
+            margin:50px;
+            transition: all .6s ease-in-out;
+            -webkit-transition: all .6s ease-in-out;    /* safari - Chrome*/
+            -moz-transition: all .6s ease-in-out;       /* Firefox */
+            -o-transition: all .6s ease-in-out;         /* Opera */
+        }
+        .scaleX   {
+            transform: scaleX(-1);
+            -moz-transform: scaleX(-1); /* Firefox */
+            -webkit-transform: scaleX(-1); /* Chrome - Safari */
+            -o-transform: scaleX(-1); /* Opera */
+        }
+        .scaleX:hover    {
+            transform: scaleX(-1);
+            -moz-transform: scaleX(-1); /* Firefox */
+            -webkit-transform: scaleX(-1); /* Chrome - Safari */
+            -o-transform: scaleX(-1); /* Opera */
+        }
+        .scaleY:hover    {
+            transform: scaleY(-1);
+            -moz-transform: scaleY(-1); /* Firefox */
+            -webkit-transform: scaleY(-1); /* Chrome - Safari */
+            -o-transform: scaleY(-1); /* Opera */
+        }
+        .text   {width:160px;font-weight:bold;font-size:14px;}
+    </style>
+</head>
+ 
+<body>
+    <span class="material-icons scaleX">
+        format_quote
+    </span>
+<h3>Invertir una imagen horizontal y vertical</h3>
+<img src="http://www.lawebdelprogramador.com/logolwp100x25.jpg"
+ class="transition scaleX">
+<img src="http://www.lawebdelprogramador.com/logolwp100x25.jpg"
+ class="transition scaleY">
+ 
+<h3>Invertir un texto horizontal y vertical</h3>
+<div class="transition scaleX text">La Web del programador</div>
+<div class="transition scaleY text">La Web del programador</div>
+ 
+<p>Modificando los valores del estilo "transition" podemos variar el tiempo
+y/o eliminar la transición para que sea instantaneo</p>
+</body>
+</html>
