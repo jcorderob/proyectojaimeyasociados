@@ -1,7 +1,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-  color: #716e6e; }
+  color: #716e6e;
+  background-color: #f8f8f8; }
 
 /* #fila{
     border: 1px solid blue;
@@ -22,14 +23,32 @@ body {
   border: 1px solid #be7f11; }
 
 .btn-primary:hover {
-  background-color: #716e6e;
-  border: 1px solid #716e6e; }
+  background-color: #a96e08;
+  border: 3px solid #be7f11; }
+
+nav ul li a:hover {
+  font-style: italic !important; }
+
+/* .navbar.nav-item.nav-link.itemprincipal>a:hover{
+    color: $marron;
+}
+.itemprincipal:hover{
+    color : $marron;
+} */
+.btn-outline-success {
+  border: 1px solid #be7f11;
+  color: #ffffff; }
+
+.btn-outline-success:hover {
+  border: 1px solid #be7f11;
+  background-color: #be7f11;
+  border: 1px solid #be7f11; }
 
 #menu-principal {
   background-color: #716e6e; }
 
 .logo {
-  top: 35px;
+  top: 4px;
   left: 45px;
   position: absolute; }
 
@@ -39,18 +58,31 @@ body {
   width: 10px;
   height: 150px; }
 
-.dos {
-  background-color: #bbff00;
-  border: 1px solid #bbff00;
-  width: 300px;
-  height: 150px;
-  top: 50px;
-  left: 20px;
-  position: absolute; }
+.carousel img {
+  width: 100%;
+  height: 100%; }
 
-.tres {
-  width: 400px;
-  height: 600px;
-  border: 1px solid red; }
+.carousel-inner .carousel-item .carousel-caption h1 {
+  color: black;
+  font-size: 3.4em;
+  font-weight: bold; }
+
+.carousel-inner .carousel-item .carousel-caption p {
+  color: black;
+  font-size: 2em;
+  font-weight: bold; }
+
+/* 
+.tituloslider{
+    color: white !important;
+    font-size: 3.4em  !important;
+    font-weight: bold  !important;
+}
+
+.textoslider{
+    color:white  !important;
+    font-size: 2em  !important;
+    font-weight: bold  !important;
+} */
 
 /*# sourceMappingURL=main.css.map */

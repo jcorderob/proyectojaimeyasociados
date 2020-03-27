@@ -4,12 +4,16 @@
 $marron: #be7f11;
 $azul  : #0000ff; 
 $gris  : #716e6e;
+$marronoscuro: #a96e08;
 $tamanio-fuente : 16px;
+$blanco : #ffffff;
+$fondopantalla : #f8f8f8;
   
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: $tamanio-fuente;
     color: $gris;
+    background-color: $fondopantalla;
 }
 /* #fila{
     border: 1px solid blue;
@@ -32,10 +36,32 @@ body{
     border: 1px solid $marron;
 }
 .btn-primary:hover{
-    background-color: $gris;
-    border: 1px solid $gris;
+    background-color: $marronoscuro;
+    border: 3px solid $marron;
+    
+  
 }
 
+nav ul li a:hover{
+    
+    font-style: italic !important;
+   }
+/* .navbar.nav-item.nav-link.itemprincipal>a:hover{
+    color: $marron;
+}
+.itemprincipal:hover{
+    color : $marron;
+} */
+.btn-outline-success{
+    border: 1px solid $marron;
+    color: $blanco;
+}
+
+.btn-outline-success:hover{
+    border: 1px solid $marron;
+    background-color: $marron;
+    border: 1px solid $marron;
+}
 
 
 #menu-principal{
@@ -44,7 +70,7 @@ body{
 
 // Estilo para la posicion absoluta del logo de jaime y Asociados
 .logo{
-  top:35px; left:45px;
+  top:4px; left:45px;
   position: absolute;
 } 
 
@@ -57,17 +83,33 @@ body{
         
 }
 
-.dos
-{
-        background-color: rgb(187, 255, 0);
-        border: 1px solid  rgb(187, 255, 0);
-        width: 300px;
-        height: 150px;
-        top:50px; left:20px;
-         position: absolute; 
+// ESTILOS DEL CAROUSEL
+.carousel img {
+    width: 100%;
+    height: 100%;
+    }
+    
+.carousel-inner .carousel-item .carousel-caption h1{
+    color: black;
+    font-size: 3.4em;
+    font-weight: bold;
 }
-.tres{
-    width: 400px;
-    height: 600px;
-    border: 1px solid red;
+
+.carousel-inner .carousel-item .carousel-caption p{
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
 }
+/* 
+.tituloslider{
+    color: white !important;
+    font-size: 3.4em  !important;
+    font-weight: bold  !important;
+}
+
+.textoslider{
+    color:white  !important;
+    font-size: 2em  !important;
+    font-weight: bold  !important;
+} */
+
