@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-  color: #716e6e;
+  /* color: $gris; */
   background-color: #f8f8f8; }
 
 /* #fila{
@@ -17,6 +17,9 @@ body {
 
 #contacto-inicial > i, p {
   display: inline; }
+
+#contacto-inicial > p {
+  color: #716e6e; }
 
 .btn-primary {
   background-color: #be7f11;

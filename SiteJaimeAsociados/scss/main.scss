@@ -15,7 +15,7 @@ $blanco : #ffffff;
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: $tamanio-fuente;
-    color: $gris;
+    /* color: $gris; */
     background-color: $grisclaro;
 }
 /* #fila{
@@ -33,7 +33,9 @@ body{
 #contacto-inicial> i, p{
     display: inline;
 }
-
+#contacto-inicial> p{
+    color: $gris;
+}
 .btn-primary{
     background-color: $marron;
     border: 1px solid $marron;
