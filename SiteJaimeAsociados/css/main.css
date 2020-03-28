@@ -72,13 +72,14 @@ nav ul li a:hover {
   font-size: 2em;
   font-weight: bold; }
 
-#breveresenia {
-  color: #716e6e; }
+.breveresenia {
+  color: #636161; }
 
 .scaleX {
   transform: scaleX(-1); }
 
-.colorcomillas {
-  color: #be7f11; }
+.comillas {
+  color: #be7f11;
+  font-size: 1.7em; }
 
 /*# sourceMappingURL=main.css.map */

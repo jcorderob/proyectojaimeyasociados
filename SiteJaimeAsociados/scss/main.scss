@@ -6,6 +6,7 @@ $azul  : #0000ff;
 $gris  : #716e6e;
 $grismedio: #b9b6b6;
 $grisclaro : #f8f8f8;
+$textocomillas:#636161;
 $marronoscuro: #a96e08;
 $tamanio-fuente : 16px;
 $blanco : #ffffff;
@@ -103,14 +104,15 @@ nav ul li a:hover{
     font-weight: bold;
 }
 //------- Estilos de    BREVE RESEÑA DE LA FIRMA ---------
-#breveresenia{
+.breveresenia{
     
-    color: $gris;
+    color: $textocomillas;
 }
 .scaleX   {
     transform: scaleX(-1);
 
 }
-.colorcomillas{
+.comillas{
     color: $marron;
+    font-size: 1.7em;
 }
