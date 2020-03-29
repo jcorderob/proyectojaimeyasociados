@@ -6,6 +6,7 @@ $azul  : #0000ff;
 $gris  : #716e6e;
 $grismedio: #b9b6b6;
 $grisclaro : #f8f8f8;
+$grisoscuro : #383838;
 $textocomillas:#636161;
 $marronoscuro: #a96e08;
 $tamanio-fuente : 16px;
@@ -18,13 +19,12 @@ body{
     /* color: $gris; */
     background-color: $grisclaro;
 }
-/* #fila{
-    border: 1px solid blue;
+.grisoscuro{
+    color: $grisoscuro;
 }
-
-#columna{
-    border: 1px solid rgb(255, 8, 0);
-} */
+.marron{
+    color: $marron;
+}
 
 #contacto-inicial> i{
         color: $marron;
@@ -51,12 +51,7 @@ nav ul li a:hover{
     
     font-style: italic !important;
    }
-/* .navbar.nav-item.nav-link.itemprincipal>a:hover{
-    color: $marron;
-}
-.itemprincipal:hover{
-    color : $marron;
-} */
+
 .btn-outline-success{
     border: 1px solid $marron;
     color: $blanco;
@@ -67,7 +62,6 @@ nav ul li a:hover{
     background-color: $marron;
     border: 1px solid $marron;
 }
-
 
 #menu-principal{
     background-color: $gris;
@@ -117,4 +111,16 @@ nav ul li a:hover{
 .comillas{
     color: $marron;
     font-size: 1.7em;
+}
+
+//  --------------- NUESTROS SERVICOS  ---------------
+hr { 
+    border: none;  
+    height: 1px;
+    background-color: $gris;  
+}
+
+.opinionclientes{
+    background-color: $gris;
+    color: white;
 }

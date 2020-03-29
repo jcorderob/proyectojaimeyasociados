@@ -4,13 +4,12 @@ body {
   /* color: $gris; */
   background-color: #f8f8f8; }
 
-/* #fila{
-    border: 1px solid blue;
-}
+.grisoscuro {
+  color: #383838; }
 
-#columna{
-    border: 1px solid rgb(255, 8, 0);
-} */
+.marron {
+  color: #be7f11; }
+
 #contacto-inicial > i {
   color: #be7f11;
   vertical-align: middle !important; }
@@ -32,12 +31,6 @@ body {
 nav ul li a:hover {
   font-style: italic !important; }
 
-/* .navbar.nav-item.nav-link.itemprincipal>a:hover{
-    color: $marron;
-}
-.itemprincipal:hover{
-    color : $marron;
-} */
 .btn-outline-success {
   border: 1px solid #be7f11;
   color: #ffffff; }
@@ -84,5 +77,14 @@ nav ul li a:hover {
 .comillas {
   color: #be7f11;
   font-size: 1.7em; }
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #716e6e; }
+
+.opinionclientes {
+  background-color: #716e6e;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
