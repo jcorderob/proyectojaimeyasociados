@@ -120,9 +120,19 @@ hr {
     background-color: $gris;  
 }
 
-.opinionclientes{
-    background-color: $gris;
-    color: white;
+.opinionclientes h2{
+    
+    color:$grisoscuro;
+}
+
+.opinion{
+    background-color: white;
+    border: 1px solid $grismedio; 
+    color: $grisoscuro;
+}
+.opinion2{
+    background-color: $grisclaro;
+    padding: 5px;
 }
 
 //----------------------  FOOTER
@@ -177,7 +187,7 @@ hr {
   padding:45px 0 20px;
   font-size:$tamanio-fuente;
   line-height:24px;
-  color:#bcb8b8;
+  color:#dddada;
 }
 .site-footer hr
 {
@@ -217,7 +227,7 @@ hr {
 }
 .footer-links a
 {
-  color:#bcb8b8
+  color:#dddada
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -350,3 +360,21 @@ hr {
   }
 }
 // ----------------- FIN DE FOOTER ----------
+
+.dama2{
+    top:5px; left:45px;
+    /* position: relative; */
+    width: 5em; height: 5em;
+    border-radius: 50%;
+    display:block;
+    margin: auto;
+   
+}
+
+.contenedor{
+    border: 1px solid red;
+}
+
+hr{
+    color: $grisclaro !important;
+}

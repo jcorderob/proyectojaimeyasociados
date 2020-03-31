@@ -83,9 +83,17 @@ hr {
   height: 1px;
   background-color: #716e6e; }
 
-.opinionclientes {
-  background-color: #716e6e;
-  color: white; }
+.opinionclientes h2 {
+  color: #383838; }
+
+.opinion {
+  background-color: white;
+  border: 1px solid #b9b6b6;
+  color: #383838; }
+
+.opinion2 {
+  background-color: #f8f8f8;
+  padding: 5px; }
 
 .footer {
   background-color: #383838;
@@ -131,7 +139,7 @@ hr {
   padding: 45px 0 20px;
   font-size: 16px;
   line-height: 24px;
-  color: #bcb8b8; }
+  color: #dddada; }
 
 .site-footer hr {
   border-top-color: #bbb;
@@ -162,7 +170,7 @@ hr {
   display: block; }
 
 .footer-links a {
-  color: #bcb8b8; }
+  color: #dddada; }
 
 .footer-links a:active, .footer-links a:focus, .footer-links a:hover {
   color: #3366cc;
@@ -264,5 +272,20 @@ hr {
     display: block;
     margin-right: 0;
     font-weight: 600; } }
+.dama2 {
+  top: 5px;
+  left: 45px;
+  /* position: relative; */
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  display: block;
+  margin: auto; }
+
+.contenedor {
+  border: 1px solid red; }
+
+hr {
+  color: #f8f8f8 !important; }
 
 /*# sourceMappingURL=main.css.map */
