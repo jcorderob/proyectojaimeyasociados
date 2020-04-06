@@ -1,0 +1,44 @@
+body{
+   /*  width: 50%;
+    height: 50%;
+    position: relative;
+    background-color: burlywood;
+    border: 1px solid red;
+    font-style: italic;
+    font-size: 40px; */
+}
+
+/* @media screen and (max-width: 400px){
+    body{
+        font-size: 1em;
+        background-color: brown;
+        font-weight: bold ;
+    }
+}
+
+@media screen and (min-width:401px)and (max-width: 800px){
+    body{
+        font-size: 3em;
+        background-color:  greenyellow;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+.marco{
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    font-size: 2em;
+}
+ */
+
+
+
+.titulo{
+    font-family: 'Teko', sans-serif;
+}
+
+.parrafo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+}
