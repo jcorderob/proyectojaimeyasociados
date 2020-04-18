@@ -1,4 +1,59 @@
-body {
+@media screen and (max-width: 400px) {
+  .pmanejar {
+    font-size: 1em;
+    line-height: 1em;
+    display: block; }
+
+  .fila-texto-manejar {
+    padding-top: 2.3rem; }
+
+  .carousel-caption h1 {
+    font-size: 1.7em !important;
+    /* font-weight: bold !important; */ }
+
+  .carousel-caption h4 {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold; } }
+@media screen and (min-width: 401px) and (max-width: 767px) {
+  .pmanejar {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    display: block; }
+
+  .fila-texto-manejar {
+    padding-top: 2.3rem; }
+
+  .carousel-caption h1 {
+    font-size: 2.0em !important;
+    /* font-weight: bold !important; */ }
+
+  .carousel-caption h4 {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .pmanejar {
+    font-size: 1.8em;
+    line-height: 1.1em;
+    display: block; }
+
+  .fila-texto-manejar {
+    padding-top: 1.7rem; }
+
+  .carousel-caption h4 {
+    color: black;
+    font-size: 1.7em;
+    font-weight: bold; } }
+@media screen and (min-width: 992px) {
+  .pmanejar {
+    font-size: 2.5em;
+    line-height: 1.1em;
+    display: block; }
+
+  .fila-texto-manejar {
+    padding-top: 1.3rem; } }
+html, body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   /* color: $gris; */
@@ -58,9 +113,23 @@ nav ul li a:hover {
   width: 100%;
   height: 100%; }
 
+.card {
+  margin-top: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+
+.card:hover {
+  /* transform: translate(0,-3px);*/
+  box-shadow: 4px 4px  10px gray;
+  transition: 0.1s; }
+
 .carousel-inner .carousel-item .carousel-caption h1 {
   color: black;
   font-size: 3.4em;
+  font-weight: bold; }
+
+.carousel-caption h4 {
+  color: black;
+  font-size: 2.2em;
   font-weight: bold; }
 
 .carousel-inner .carousel-item .carousel-caption p {
@@ -76,7 +145,18 @@ nav ul li a:hover {
 
 .comillas {
   color: #be7f11;
-  font-size: 1.7em; }
+  /* @media screen and (max-width:768px){
+    font-size: 1em;
+  }
+  @media screen and (min-width: 769px) and (max-width:991px){
+    font-size: 1.2em;
+  }
+  @media screen and (min-width: 992px) and (max-width:1199px){
+    font-size: 1.4em;
+  }
+  @media screen and (min-width: 1200px){
+    font-size: 1.4em;
+  } */ }
 
 hr {
   border: none;
@@ -121,9 +201,8 @@ hr {
 .permitanosmanejar {
   height: 120px;
   color: white;
-  font-size: 2.2em;
-  line-height: 38px;
-  background: url(../images/permitanosmanejar0.jpg); }
+  background: url(../images/permitanosmanejar0.jpg);
+  line-height: 37px; }
 
 /* #contactomanejar{
     background-color: $marron;
@@ -287,5 +366,60 @@ hr {
 
 hr {
   color: #f8f8f8 !important; }
+
+.appwhatsapp {
+  position: fixed;
+  /* right: 20px; */
+  bottom: 50px;
+  width: 250px;
+  z-index: 10; }
+
+.appwhatsapp img {
+  /* width: 100%; */
+  height: auto; }
+
+.energia {
+  overflow: hidden;
+  /*esta propiedad evita que la imagen ocupe mas espacio que su contenedor*/
+  /*  width: 350px;
+   height: 300px; */
+  border: 5px solid #FFF;
+  box-sizing: border-box;
+  float: left; }
+
+.energia img:hover {
+  /*  overflow: hidden;  */
+  transform: scale(1.2); }
+
+.energia img {
+  transition: all .2s ease;
+  width: 100%; }
+
+.material-icons {
+  vertical-align: middle; }
+
+.breveresenia .material-icons {
+  vertical-align: top; }
+
+/* Estilos para la galeria */
+.galeria {
+  background-color: #e9ecef; }
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important; }
+
+#image-gallery .modal-footer {
+  display: block; }
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.img-thumbnail:hover {
+  box-shadow: 0 0 7px gray; }
+
+/* Fin de stilos para la galeria */
+/* -----------------------------------------------*/
 
 /*# sourceMappingURL=main.css.map */
