@@ -12,7 +12,7 @@
 	$message .= '<p>Walter Jaime, le han anviado un nuevo mensaje desde el sitio web jaime-asociados.com, según el detalle siguiente:</p> ';
 	$message .= '<p>CLIENTE: '.$nombres.'</p> ';
 	$message .= '<p>EMAIL: '.$email_cliente.'</p> ';
-	$message .= '<p>TELÉFONO: '.$telefono.'</p> ';
+	/* $message .= '<p>TELÉFONO: '.$telefono.'</p> '; */
 	$message .= '<p>MENSAJE: '.$mensaje.'</p> ';
 	
 	

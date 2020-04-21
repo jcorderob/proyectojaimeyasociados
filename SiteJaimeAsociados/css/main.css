@@ -421,5 +421,8 @@ hr {
 
 /* Fin de stilos para la galeria */
 /* -----------------------------------------------*/
+.imagen:hover {
+  transition: all .5s ease-in-out;
+  filter: opacity(0.8); }
 
 /*# sourceMappingURL=main.css.map */

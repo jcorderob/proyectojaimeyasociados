@@ -20,8 +20,8 @@ document.addEventListener("touchstart", function() {}, false);
         } else {
             var fname = $("#fname").val();
             var email = $("#email").val();
-            var phone = $("#phone").val();
-            var subject = $("#subject").val();
+             var phone = $("#phone").val();
+            var subject = $("#subject").val(); 
             var message = $("#message").val();
             var filter = /^((\+[1-9]{1,4}[ \-]*)|(\([0-9]{2,3}\)[ \-]*)|([0-9]{2,4})[ \-]*)*?[0-9]{3,4}?[ \-]*[0-9]{3,4}?$/;
             if (filter.test(phone)) {
